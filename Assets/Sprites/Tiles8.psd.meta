@@ -138,7 +138,7 @@ TextureImporter:
       213: 6111811662803643643
     second: Tiles8_44
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -155,10 +155,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -197,6 +199,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -208,6 +212,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -220,6 +225,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -232,6 +238,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1220,9 +1227,54 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Tiles8_0: -2625792239160246715
+      Tiles8_1: 2606452061168538344
+      Tiles8_10: 3985572575508353424
+      Tiles8_11: 6196587412543281838
+      Tiles8_12: 984837944639055630
+      Tiles8_13: 8187260375483618469
+      Tiles8_14: 2278253281679707487
+      Tiles8_15: 5985179859298099945
+      Tiles8_16: -3089033977250394991
+      Tiles8_17: 6451081555678407108
+      Tiles8_18: 7304033524947703361
+      Tiles8_19: -5301541164020148131
+      Tiles8_2: -7657995839575033486
+      Tiles8_20: -7796285378087863511
+      Tiles8_21: -5299556122804902429
+      Tiles8_22: 8043821660017441719
+      Tiles8_23: 8634896068704475107
+      Tiles8_24: 8258679489342035933
+      Tiles8_25: 5971099373697308809
+      Tiles8_26: -2758273114485230279
+      Tiles8_27: 5003986248752988017
+      Tiles8_28: -5326325557293633782
+      Tiles8_29: 1114942628182805143
+      Tiles8_3: -8710719944169269763
+      Tiles8_30: -4993250581913190721
+      Tiles8_31: -6150729698940717729
+      Tiles8_32: -7808078675774870102
+      Tiles8_33: -4756578868037003725
+      Tiles8_34: 4797613617276509383
+      Tiles8_35: -9006522643461520669
+      Tiles8_36: -7023585859056054591
+      Tiles8_37: -358680482876501496
+      Tiles8_38: 1821382597302025799
+      Tiles8_39: 3070736830231731773
+      Tiles8_4: 6591690252539240986
+      Tiles8_40: 219837073105031765
+      Tiles8_41: 5830949511006603859
+      Tiles8_42: 1936778472050124915
+      Tiles8_43: 7962478118364383092
+      Tiles8_44: 6111811662803643643
+      Tiles8_5: 2425146326104445215
+      Tiles8_6: -1286221272995358286
+      Tiles8_7: 4328618581775369181
+      Tiles8_8: 3732640030509667192
+      Tiles8_9: -7729544413516489948
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 1
   userData: 
   assetBundleName: 
   assetBundleVariant: 

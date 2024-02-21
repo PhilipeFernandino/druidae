@@ -1,10 +1,12 @@
 using UnityEngine;
 
-public interface IWandable {
+public interface IWandable
+{
     public void Wand();
 }
 
-public class Vine : MonoBehaviour, IWandable {
+public class Vine : MonoBehaviour, IWandable
+{
 
     public float growthSpeed;
     public float maxSize;
@@ -13,28 +15,33 @@ public class Vine : MonoBehaviour, IWandable {
     private BoxCollider2D vineCollider;
     private float vineHeight;
 
-    private void Awake() {
+    private void Awake()
+    {
         vineCollider = gameObject.AddComponent<BoxCollider2D>();
         vineCollider.isTrigger = true;
 
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    private void Start() {
+    private void Start()
+    {
         vineHeight = spriteRenderer.size.y;
-        vineCollider.size = new Vector2(0.8f, vineHeight); 
+        vineCollider.size = new Vector2(0.8f, vineHeight);
         vineCollider.offset = new Vector2(0.5f, -(vineHeight / 2));
     }
 
-    public void Wand() {
+    public void Wand()
+    {
         Grow();
     }
 
-    private void Grow() {
-        if (vineHeight < maxSize) {
+    private void Grow()
+    {
+        if (vineHeight < maxSize)
+        {
             vineHeight += growthSpeed;
             spriteRenderer.size = new Vector2(1, vineHeight);
-            vineCollider.size = new Vector2(0.8f, vineHeight); 
+            vineCollider.size = new Vector2(0.8f, vineHeight);
             vineCollider.offset = new Vector2(0.5f, -(vineHeight / 2));
         }
     }
